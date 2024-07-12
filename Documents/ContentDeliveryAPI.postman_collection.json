@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "7a83bb3f-f54b-4bea-832e-32b964e5c832",
+		"name": "ContentDeliveryAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "36920897"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/episerver/v3.0/content/9/?expand=*",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/episerver/v3.0/content/9/?expand=*",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"episerver",
+						"v3.0",
+						"content",
+						"9",
+						""
+					],
+					"query": [
+						{
+							"key": "expand",
+							"value": "*"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/episerver/v3.0/site/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/api/episerver/v3.0/site/"
+			},
+			"response": []
+		}
+	]
+}
